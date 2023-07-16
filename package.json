@@ -1,0 +1,22 @@
+{
+  "name": "turf.js-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "geojson-validation": "^1.0.2",
+    "nodemon": "^3.0.1",
+    "npm": "^9.8.0",
+    "winston": "^3.10.0"
+  }
+}
